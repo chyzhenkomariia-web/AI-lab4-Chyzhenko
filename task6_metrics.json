@@ -1,0 +1,56 @@
+[
+  {
+    "group": "temperature",
+    "value": 0,
+    "temperature": 0,
+    "top_p": null,
+    "similarity": 0.117,
+    "unique_ratio": 0.829,
+    "words": 137.0
+  },
+  {
+    "group": "temperature",
+    "value": 0.5,
+    "temperature": 0.5,
+    "top_p": null,
+    "similarity": 0.417,
+    "unique_ratio": 0.822,
+    "words": 132.0
+  },
+  {
+    "group": "temperature",
+    "value": 1,
+    "temperature": 1,
+    "top_p": null,
+    "similarity": 0.38,
+    "unique_ratio": 0.869,
+    "words": 118.5
+  },
+  {
+    "group": "top_p",
+    "value": 0.5,
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "similarity": 0.328,
+    "unique_ratio": 0.837,
+    "words": 131.0
+  },
+  {
+    "group": "top_p",
+    "value": 0.8,
+    "temperature": 1.0,
+    "top_p": 0.8,
+    "similarity": 0.51,
+    "unique_ratio": 0.829,
+    "words": 119.5
+  },
+  {
+    "group": "top_p",
+    "value": 1.0,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "similarity": 0.203,
+    "unique_ratio": 0.853,
+    "words": 118.5
+  }
+]

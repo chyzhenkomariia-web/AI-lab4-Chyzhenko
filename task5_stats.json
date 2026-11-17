@@ -1,0 +1,56 @@
+{
+  "chars": 30127,
+  "words": 4716,
+  "chunk_size": 9000,
+  "no_chunking": {
+    "requests": 1,
+    "words": 546,
+    "facts": {
+      "found": 10,
+      "total": 16,
+      "missing": [
+        "8 голів уваги",
+        "d_model = 512",
+        "d_ff = 2048",
+        "оптимізатор Adam",
+        "warmup 4000 кроків",
+        "12 годин навчання (base)"
+      ]
+    }
+  },
+  "chunking": {
+    "requests": 5,
+    "chunk_lengths": [
+      8981,
+      8939,
+      8964,
+      3240
+    ],
+    "words": 453,
+    "facts": {
+      "found": 16,
+      "total": 16,
+      "missing": []
+    }
+  },
+  "sliding_window": {
+    "requests": 5,
+    "overlap": 1500,
+    "chunk_lengths": [
+      8981,
+      8974,
+      8978,
+      7598
+    ],
+    "words": 453,
+    "facts": {
+      "found": 13,
+      "total": 16,
+      "missing": [
+        "warmup 4000 кроків",
+        "12 годин навчання (base)",
+        "синтаксичний розбір англійської"
+      ]
+    }
+  }
+}
